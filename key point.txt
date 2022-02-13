@@ -1,0 +1,90 @@
+Fiscal Year Begin Date, Fiscal Year End Date, Cost of Charity Care, Total Bad Debt Expense, Cost of Uncompensated Care, Total Unreimbursed and Uncompensated Care, Total Salaries From Worksheet A, Overhead Non-Salary Costs, Depreciation Cost, Total Costs, Inpatient Total Charges, Outpatient Total Charges, Wage-Related Costs (Core), Total Salaries (adjusted),Contract Labor, Cash on Hand and in Banks, Temporary Investments, Notes Receivable, Accounts Receivable, Less: Allowances for Uncollectible Notes and Accounts Receivable, Inventory, Prepaid Expenses, Other Current Assets, Total Current Assets, Total fixed Assets, Investments, Other Assets, Total Other Assets, Total Assets, Accounts Payable, (Salaries, Wages, and Fees Payable), Payroll Taxes Payable, Notes and Loans Payable (Short Term), Other Current Liabilities, Total Current Liabilities, Notes Payable, Total Long Term Liabilities, Total Liabilities, General Fund Balance, Total Fund Balances, Total Liabilities and Fund Balances, DRG amounts before October 1, DRG amounts after October 1, Outlier payments for discharges, Disproportionate Share Adjustment, Allowable DSH Percentage, Managed Care Simulated Payments, Inpatient Revenue, Outpatient Revenue, Gross Revenue, Less Contractual Allowance and discounts on patients' accounts, Net Patient Revenue, Less Total Operating Expense, Net Income from Service to Patients, Total Other Income, Total Income, Net Income, Cost To Charge Ratio, Net Revenue from Medicaid, Medicaid Charges
+
+
+
+drop:
+--------
+rpt_rec_num	
+Provider CCN	
+Hospital Name	
+Street Address	City	
+State Code	
+Zip Code	
+County	
+Medicare CBSA Number	
+Rural Versus Urban	
+CCN Facility Type	
+Provider Type	
+Type of Control
+FTE - Employees on Payroll	
+Number of Interns and Residents (FTE)	
+Total Days Title V	
+Total Days Title XVIII	
+Total Days Title XIX	
+Total Days (V + XVIII + XIX + Unknown)	
+Number of Beds	
+Total Bed Days Available	
+Total Discharges Title V	
+Total Discharges Title XVIII	
+Total Discharges Title XIX	
+Total Discharges (V + XVIII + XIX + Unknown)	
+Total Days Title V + Total for all Subproviders	
+Total Days Title XVIII + Total for all Subproviders	
+Total Days Title XIX + Total for all Subproviders	
+Total Days (V + XVIII + XIX + Unknown) + Total for all Subproviders	
+Number of Beds + Total for all Subproviders	
+Total Bed Days Available + Total for all Subproviders	
+Total Discharges Title V + Total for all Subproviders	
+Total Discharges Title XVIII + Total for all Subproviders	
+Total Discharges Title XIX + Total for all Subproviders	
+Total Discharges (V + XVIII + XIX + Unknown) + Total for all Subproviders	
+Hospital Total Days Title V For  Adults & Peds	
+Hospital Total Days Title XVIII For  Adults & Peds	
+Hospital Total Days Title XIX For  Adults & Peds	
+Hospital Total Days (V + XVIII + XIX + Unknown) For  Adults & Peds	
+Hospital Number of Beds For  Adults & Peds	
+Hospital Total Bed Days Available For  Adults & Peds	
+Hospital Total Discharges Title V For  Adults & Peds	
+Hospital Total Discharges Title XVIII For  Adults & Peds	
+Hospital Total Discharges Title XIX For  Adults & Peds	
+Hospital Total Discharges (V + XVIII + XIX + Unknown) For  Adults & Peds
+Combined Outpatient + Inpatient Total Charges
+Wage-Related Costs (RHC/FQHC)
+Wage Related Costs for Part - A Teaching Physicians	
+Wage Related Costs for Interns and Residents
+Land	
+Land Improvements	
+Buildings	
+Leasehold Improvements	
+Fixed Equipment	
+Major Movable Equipment	
+Minor Equipment Depreciable	
+Health Information Technology Designated Assets
+Deferred Income
+
+
+
+Mortgage Payable
+Unsecured Loans	
+Other Long Term Liabilities
+DRG Amounts Other Than Outlier Payments
+DRG Amounts for Model 4 BPCI before October 1	
+DRG Amounts for Model 4 BPCI after October 1
+Total IME Payment
+Total Other Expenses
+Net Revenue from Stand-Alone SCHIP	
+Stand-Alone SCHIP Charges
+
+
+'Fiscal Year Begin Date', 'Fiscal Year End Date'
+
+df['day'] = df['datetime_utc'].dt.day
+df['month'] = df['datetime_utc'].dt.month
+df['year'] = df['datetime_utc'].dt.year
+
+
+
+
+
+
+
