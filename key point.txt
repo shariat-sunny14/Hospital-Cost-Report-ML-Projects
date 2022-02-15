@@ -88,3 +88,75 @@ df['year'] = df['datetime_utc'].dt.year
 
 
 
+
+
+
+
+
+
+
+
+Cost of Charity Care
+Total Bad Debt Expense 
+Cost of Uncompensated Care
+Total Unreimbursed and Uncompensated Care
+Total Salaries From Worksheet A
+Overhead Non-Salary Costs
+Depreciation Cost
+Total Costs
+Inpatient Total Charges
+Outpatient Total Charges
+Wage-Related Costs (Core)
+Total Salaries (adjusted)
+Contract Labor
+Cash on Hand and in Banks
+Temporary Investments
+Notes Receivable
+Accounts Receivable
+Less: Allowances for Uncollectible Notes and Accounts Receivable
+Inventory
+Prepaid Expenses
+Other Current Assets
+Total Current Assets
+Total fixed Assets
+Investments
+Other Assets
+Total Other Assets
+Total Assets
+Accounts Payable
+Salaries, Wages, and Fees Payable
+Payroll Taxes Payable
+Notes and Loans Payable (Short Term)
+Other Current Liabilities
+Total Current Liabilities
+Notes Payable
+Total Long Term Liabilities
+Total Liabilities
+General Fund Balance
+Total Fund Balances
+Total Liabilities and Fund Balances
+DRG amounts before October 1
+DRG amounts after October 1
+Outlier payments for discharges
+Disproportionate Share Adjustment
+Allowable DSH Percentage
+Managed Care Simulated Payments
+Inpatient Revenue
+Outpatient Revenue
+Gross Revenue
+Less Contractual Allowance and discounts on patients' accounts
+Net Patient Revenue
+Less Total Operating Expense
+Net Income from Service to Patients
+Total Other Income
+Total Income
+Net Income
+Cost To Charge Ratio
+Net Revenue from Medicaid
+Medicaid Charges
+Begin_day_new
+Begin_month_new
+Begin_year_new
+End_day_new
+End_month_new
+End_year_new
